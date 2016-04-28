@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".two.BarActivity">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_launcher"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="always"
+        android:title="搜索"
+        />
+
+    <item
+        android:id="@+id/action_1"
+        android:icon="@mipmap/picture"
+        android:showAsAction="always"
+        android:title="第一个"
+        />
+
+    <item
+        android:id="@+id/action_2"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="always"
+        android:title="第二个"
+        />
+
+    <item
+        android:id="@+id/action_3"
+        android:icon="@mipmap/ic_launcher"
+        android:showAsAction="never"
+        android:title="第三个"
+        />
+
+</menu>

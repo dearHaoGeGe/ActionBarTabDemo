@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_1_three"
+        android:icon="@mipmap/ofm_add_icon"
+        android:showAsAction="always"
+        android:title="添加好友" />
+
+    <item
+        android:id="@+id/action_2_three"
+        android:icon="@mipmap/ofm_camera_icon"
+        android:showAsAction="always"
+        android:title="拍照" />
+
+    <item
+        android:id="@+id/action_4_three"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:showAsAction="always"
+        android:title="分享"
+        />
+
+    <item
+        android:id="@+id/action_3_three"
+        android:icon="@mipmap/ofm_feedback_icon"
+        android:showAsAction="never"
+        android:title="邮件" />
+
+</menu>

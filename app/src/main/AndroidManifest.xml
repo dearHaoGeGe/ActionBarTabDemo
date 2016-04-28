@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.my.actionbartab">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".one.TabActivity" />
+
+        <activity
+            android:name=".two.BarActivity"
+            android:label="天气"
+            android:logo="@mipmap/picture"
+            android:theme="@android:style/Theme.Holo.Light" />
+
+        <activity
+            android:name=".three.ThreeActivity"
+            android:label="第三"
+            android:logo="@mipmap/ic_launcher"
+            android:theme="@android:style/Theme.Holo" />
+
+    </application>
+
+</manifest>
